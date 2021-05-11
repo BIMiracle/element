@@ -75,9 +75,10 @@
       },
 
       handleCheckChange() {
-        const { panel, value, node } = this;
+        // const { panel, value, node } = this;
+        const { panel, value } = this;
         panel.handleCheckChange(value);
-        panel.handleExpand(node);
+        // panel.handleExpand(node);
       },
 
       handleMultiCheckChange(checked) {
